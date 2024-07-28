@@ -9,6 +9,7 @@ The Fribe Android SDK allows you to integrate the Fribe services into your Andro
 
 Add the JitPack repository to your root build.gradle file at the end of the repositories section:
 
+```gradle
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -17,13 +18,10 @@ dependencyResolutionManagement {
     }
 }
 ### Step 2: Add JitPack Repository
-Add the SDK dependency:
 
 Add the following line to your module's build.gradle file inside the dependencies section:
-
-gradle
-Copy code
+```gradle
 dependencies {
-    implementation 'com.github.talharasool:FribeAndroidSDK:Tag'
+    implementation 'com.github.talharasool:FribeAndroidSDK:1.0.1'
 }
 Replace Tag with the appropriate release tag or version you want to use.
